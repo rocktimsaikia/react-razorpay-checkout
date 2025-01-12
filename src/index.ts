@@ -81,13 +81,13 @@ type RazorpayCheckoutOptions = BaseOptions &
 		| { callback_url?: never; handler?: never }
 	);
 
-type StandardCheckoutOptions = RazorpayCheckoutOptions & {
+export type StandardCheckoutOptions = RazorpayCheckoutOptions & {
 	order_id: string;
 	amount: number;
 	currency: string;
 };
 
-type SubscriptionCheckoutOptions = RazorpayCheckoutOptions & {
+export type SubscriptionCheckoutOptions = RazorpayCheckoutOptions & {
 	subscription_id: string;
 	subscription_card_change?: boolean;
 	recurring?: boolean;
