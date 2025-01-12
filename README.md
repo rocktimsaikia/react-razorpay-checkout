@@ -14,8 +14,7 @@ npm i react-razorpay-checkout
 
 1. If you are using `order_id`, use the below way of initializing a standard checkout:
 
-> [!IMPORTANT]
-> Some options are only available/required for the `StandardCheckout` like `order_id`, `amount` and `currency`.
+> Some options are only available/required for the `StandardCheckout` ie. `order_id`, `amount` and `currency`.
 
 ```tsx
 import { StandardCheckout } from "react-razorpay-checkout"
