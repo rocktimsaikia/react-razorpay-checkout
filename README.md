@@ -36,7 +36,7 @@ const razopay = new StandardCheckout(options)
 razorpay.open()
 ```
 
-
+\
 2. If you are using `subscription_id`, use the below way of initializing a subscription based checkout:
 
 ```tsx
